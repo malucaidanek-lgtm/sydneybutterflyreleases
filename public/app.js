@@ -81,7 +81,7 @@ form.addEventListener('submit', async function(e) {
     try {
 
         // Check stock
-        const stockResponse = await fetch("http://localhost:3000/stock");
+        const stockResponse = await fetch("/stock");
 
 console.log("Stock response:", stockResponse.status);
 
@@ -115,7 +115,7 @@ console.log("Stock data:", stockData);
 
             // Reduce stock
             const reduceResponse = await fetch(
-                "http://localhost:3000/reduce-stock",
+                "/reduce-stock",
                 {
                     method: "POST",
                     headers: {
