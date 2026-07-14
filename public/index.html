@@ -519,61 +519,55 @@ html, body {
     overflow-x: hidden;
 }
 
-
-    .hero img {
-    width: 100%;
-    max-width: 260px;
-    min-width: 0;
-    height: auto;
-}
-
-/* Header */
+/* HEADER */
 header {
     display: flex;
-    justify-content: space-inbetween;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     padding: 15px;
-    flex-direction: row;
-    text-align: center;
 }
 
 header img.logo {
-    height: 70px;
+    height: 60px;
     width: auto;
-    margin: 0;
     flex-shrink: 0;
 }
 
 header h1 {
     flex: 1;
-    font-size: 2.2rem;
-    letter-spacing: 2px;
-    margin: 8px 0;
-    text-align: left;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    line-height: 1.2;
 }
 
 header nav {
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 12px;
+    margin-top: 12px;
 }
 
 header nav a {
     margin: 0;
-    font-size: 0.95rem;
+    font-size: 1rem;
 }
 
-/* Hero */
+/* HERO */
 .hero {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 15px;
+    padding: 35px 20px;
 }
 
 .hero img {
     width: 100%;
-    max-width: 260px;
+    max-width: 280px;
     min-width: 0;
     height: auto;
 }
@@ -581,10 +575,11 @@ header nav a {
 .hero-text {
     width: 100%;
     margin-top: 20px;
+    text-align: center;
 }
 
 .hero-text h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-align: center;
 }
 
@@ -593,7 +588,7 @@ header nav a {
     text-align: center;
 }
 
-/* Buttons */
+/* BUTTONS */
 .container {
     justify-content: center;
     gap: 10px;
@@ -607,23 +602,31 @@ header nav a {
     margin: 5px;
 }
 
-/* Packages */
+/* PACKAGES */
 .packages {
     padding: 35px 15px;
 }
 
 .packages h2 {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
+}
+
+.package-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .package {
     width: 100%;
     max-width: 300px;
-    padding: 15px;
+    padding: 18px;
 }
 
 .package img {
+    width: 100%;
     height: 220px;
+    object-fit: cover;
 }
 
 .package h3 {
@@ -635,11 +638,11 @@ header nav a {
 }
 
 .package .btn-select {
-    font-size: 0.9rem;
     padding: 8px 16px;
+    font-size: 0.9rem;
 }
 
-/* Form */
+/* ENQUIRY */
 .enquiry {
     padding: 35px 15px;
 }
@@ -650,13 +653,15 @@ header nav a {
 
 form {
     width: 100%;
-    padding: 18px;
     margin: 20px auto;
+    padding: 18px;
 }
 
 form input,
 form select,
 form textarea {
+    width: 100%;
+    box-sizing: border-box;
     font-size: 16px;
     padding: 10px;
 }
@@ -680,7 +685,7 @@ form textarea {
     font-size: 15px;
 }
 
-/* Contact */
+/* CONTACT */
 .contact {
     padding: 20px 15px;
 }
@@ -690,13 +695,14 @@ form textarea {
 }
 
 .contact-items {
+    display: flex;
     flex-direction: column;
     gap: 8px;
     font-size: 0.9rem;
 }
 
 .contact-row {
-    gap: 20px;
+    gap: 15px;
 }
 
 .social-icons {
@@ -704,23 +710,22 @@ form textarea {
 }
 
 .social-icon {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
 }
 
-/* Footer */
+/* FOOTER */
 footer {
     padding: 15px;
     font-size: 0.8rem;
 }
 
 .location-footer {
-    font-size: 0.9rem;
     padding: 15px;
+    font-size: 0.85rem;
 }
 
 }
-
 
         
      
