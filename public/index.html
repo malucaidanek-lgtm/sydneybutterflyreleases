@@ -507,116 +507,201 @@
 
 
 
+@media (max-width: 768px) {
 
+html, body {
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    padding: 15px;
+    flex-direction: column;
+    text-align: center;
+}
+
+header img.logo {
+    height: 70px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    margin: 8px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+header nav a {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+/* Hero */
+.hero {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 260px;
+    min-width: 0;
+    height: auto;
+}
+
+.hero-text {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.hero-text h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Buttons */
+.container {
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    width: auto;
+    max-width: 180px;
+    padding: 10px 18px;
+    font-size: 0.95rem;
+    margin: 5px;
+}
+
+/* Packages */
+.packages {
+    padding: 35px 15px;
+}
+
+.packages h2 {
+    font-size: 2.3rem;
+}
+
+.package {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+}
+
+.package img {
+    height: 220px;
+}
+
+.package h3 {
+    font-size: 1.2rem;
+}
+
+.package p {
+    font-size: 0.95rem;
+}
+
+.package .btn-select {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+}
+
+/* Form */
+.enquiry {
+    padding: 35px 15px;
+}
+
+.enquiry h2 {
+    font-size: 1.8rem;
+}
+
+form {
+    width: 100%;
+    padding: 18px;
+    margin: 20px auto;
+}
+
+form input,
+form select,
+form textarea {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 14px;
+}
+
+/* FAQ */
+.faq {
+    padding: 35px 15px;
+}
+
+.faq h2 {
+    font-size: 1.8rem;
+}
+
+.faq-question {
+    padding: 15px;
+    font-size: 15px;
+}
+
+/* Contact */
+.contact {
+    padding: 20px 15px;
+}
+
+.contact-title {
+    font-size: 1.5rem;
+}
+
+.contact-items {
+    flex-direction: column;
+    gap: 8px;
+    font-size: 0.9rem;
+}
+
+.contact-row {
+    gap: 20px;
+}
+
+.social-icons {
+    gap: 15px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* Footer */
+footer {
+    padding: 15px;
+    font-size: 0.8rem;
+}
+
+.location-footer {
+    font-size: 0.9rem;
+    padding: 15px;
+}
+
+}
 
 
         
-       @media (max-width: 768px) {
-    html, body {
-        overflow-x: hidden;
-    }
-
-    header {
-        flex-direction: column;
-        padding: 20px;
-    }
-
-    header img.logo {
-        height: 80px;
-    }
-
-    header h1 {
-        font-size: 2.5rem;
-        letter-spacing: 2px;
-    }
-
-    header nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    header nav a {
-        margin: 0;
-        font-size: 1rem;
-    }
-
-    .hero {
-        flex-direction: column;
-        padding: 40px 20px;
-    }
-
-    .hero img,
-    .hero-text {
-        width: 100%;
-        min-width: 0;
-    }
-}
-
-
-@media (max-width: 768px) {
-
-    .packages,
-    .enquiry,
-    .faq,
-    .contact {
-        padding: 40px 20px;
-    }
-
-    .packages h2 {
-        font-size: 2.5rem;
-    }
-
-    .package-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .package {
-        width: 100%;
-        max-width: 350px;
-        padding: 20px;
-    }
-
-    .package img {
-        height: auto;
-        max-height: 300px;
-    }
-
-    form {
-        width: 100%;
-        margin: 20px 0;
-        padding: 20px;
-    }
-
-    input,
-    select,
-    textarea {
-        box-sizing: border-box;
-    }
-
-    .submit-btn {
-        width: 100%;
-    }
-
-    .btn {
-        width: 100%;
-        max-width: 300px;
-    }
-
-    .hero-text h2 {
-        font-size: 2rem;
-    }
-
-    .hero-text h1 {
-        font-size: 1.1rem;
-    }
-}
-
-
-
-
+     
 
 
 
