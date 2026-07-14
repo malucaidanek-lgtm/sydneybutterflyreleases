@@ -34,7 +34,7 @@
         }
        
         header img.logo {
-            height: 150px;
+            height: 100px;
             width: auto;
             transition: transform 0.3s;
         }
@@ -513,13 +513,13 @@
 
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 
 html, body {
     overflow-x: hidden;
 }
 
-/* Header */
+
 header {
     padding: 15px;
     flex-direction: row;
@@ -558,7 +558,7 @@ header nav a {
     font-size: 0.95rem;
 }
 
-/* Hero */
+
 .hero {
     flex-direction: column;
     align-items: center;
@@ -587,7 +587,7 @@ header nav a {
     text-align: center;
 }
 
-/* Buttons */
+
 .container {
     justify-content: center;
     gap: 10px;
@@ -601,7 +601,7 @@ header nav a {
     margin: 5px;
 }
 
-/* Packages */
+
 .packages {
     padding: 35px 15px;
 }
@@ -633,7 +633,7 @@ header nav a {
     padding: 8px 16px;
 }
 
-/* Form */
+
 .enquiry {
     padding: 35px 15px;
 }
@@ -660,7 +660,7 @@ form textarea {
     padding: 14px;
 }
 
-/* FAQ */
+
 .faq {
     padding: 35px 15px;
 }
@@ -674,7 +674,7 @@ form textarea {
     font-size: 15px;
 }
 
-/* Contact */
+
 .contact {
     padding: 20px 15px;
 }
@@ -702,7 +702,7 @@ form textarea {
     height: 30px;
 }
 
-/* Footer */
+
 footer {
     padding: 15px;
     font-size: 0.8rem;
@@ -714,7 +714,44 @@ footer {
 }
 
 }
+*/
 
+        @media (max-width: 768px) {
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 15px;
+    gap: 15px;
+    flex-wrap: nowrap;
+}
+
+/* Logo left */
+header img.logo {
+    height: 55px;
+    width: 55px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+/* Title beside logo */
+header h1 {
+    flex: 1;
+    text-align: left;
+    font-size: clamp(1.4rem, 6vw, 2.2rem);
+    letter-spacing: 1px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+/* Hide nav or make it smaller */
+header nav {
+    display: none;
+}
+
+}
         
      
 
