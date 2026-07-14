@@ -116,12 +116,18 @@
 
 
 
+        
         .hero img {
-         width: 45%;
-        border-radius: 15px;
-                                      min-width: 0px;
-                                    max-width: 300px;
-        transition: transform 0.3s;
+    width: 45%;
+    max-width: 650px;
+    min-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.3s;
+
+    /* Soft radial fade */
+    ...
+}
 
     /* Soft radial fade */
     -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
@@ -511,6 +517,14 @@
 
 html, body {
     overflow-x: hidden;
+}
+
+
+    .hero img {
+    width: 100%;
+    max-width: 260px;
+    min-width: 0;
+    height: auto;
 }
 
 /* Header */
