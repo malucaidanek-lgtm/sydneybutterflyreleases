@@ -101,7 +101,7 @@ console.log("Stock data:", stockData);
 
         // Send to Formspree
         const response = await fetch(
-            'https://formspree.io/f/meoralvr',
+            'https://formspree.io/f/myegqpbl',
             {
                 method: 'POST',
                 body: formData,
