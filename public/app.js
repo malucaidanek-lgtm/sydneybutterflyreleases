@@ -130,11 +130,7 @@ console.log("Stock data:", stockData);
             console.log("Reduce stock:", reduceResponse.status);
 
             formMessage.textContent =
-                "Thank you! Your enquiry has been sent.
-                    
-                We'll contact you by email to confirm your
-                order and arrange your pickup or delivery
-                details";
+                "Thank you! Your enquiry has been sent. We'll contact you by email to confirm your order and arrange your pickup or delivery details";
 
             form.reset();
 
